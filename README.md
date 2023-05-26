@@ -19,7 +19,9 @@ Approach 4: If we have tens of thousands of products, is to use all the rows to 
 ## E-Commerce-Finding-Differences-in-Product-Variations  
 Code for a function named FindKeyDifference() that takes a JSON object containing arrays of similar product links as the parameter and returns a JSON object that outlines the key difference between each product within the groups. Detailing approach used in solving the problem.  
 
-Approach 1: (FILE Key_Difference_method_cc_v7.ipynb) In this approach simple string manipulations followed by a dedicated function to find difference words is integrated to provide output as per question.  
+Approach 1: (FILE Key_Difference_method_cc_v7.ipynb) In this approach simple string manipulations followed by a dedicated function to find difference words is integrated to provide output as per question.    
+
 Note:- Due to 430 error for muliple server ping to extract data for each product, I made a work around for this i set the range value to 10 for simplified testing. You can edit the parapmeter at line 67 of cell 2 in notebook. code is as follows  
-#Main logic to store and manuplate JSON and Differences
-    for i in range(10):
+`#Main logic to store and manuplate JSON and Differences`  
+
+`    for i in range(10):`
